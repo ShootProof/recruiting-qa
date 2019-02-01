@@ -41,7 +41,7 @@ team.  A business analyst would have written the acceptance criteria, and
 a developer would have implemented the contact edit page to meet its
 requirements.
 
-As a member of our QA team, you would be responsible to confirming that this
+As a member of our QA team, you would be responsible for confirming that this
 particular view meets its requirements and functions in a manner free of
 defects.
 
@@ -67,31 +67,30 @@ marketing site home page. There’s a “GET STARTED” button on
 
 ### Locating the "Get Started" button
 
-**Goal:** provide code or pseudocode to locate the topmost "Get Started" button
+**Goal:** provide code or pseudocode to click the topmost "Get Started" button
 
-Provide code for an automated test that locates the topmost "Get Started"
+Provide code for an automated test that clicks topmost "Get Started"
 button on <https://www.shootproof.com>.  The code provided can be for an
 automated test using the tool and language of your choice (Selenium, etc.).
 
 A complete submission will:
 
-* Assert that a "Get Started" button exists on the page
+* Locate the topmost "Get Started" button on the page
+* Click the button
 * Explain why you chose the language and framework that you did
 * If the code and approach is not obvious, describe the approach and decisions
   made
 
 In the event that you cannot provide working code, please provide a written
-description of how you would locate this button.  Pseudocode is acceptable,
+description of how you would locate and click this button.  Pseudocode is acceptable,
 but working code is preferred.
 
 ### Locating the _other_ "Get Started" button
 
-**Goal:** provide code or pseudocode to locate the "Get Started" button that
+**Goal:** provide code or pseudocode to click the "Get Started" button that
 appears at the bottom of the page
 
-How would you locate the other "Get Started" button, which appears at the bottom of the page?
-
-Similarly, provide code for an automated test that locates the bottommost "Get
+Similarly, provide code for an automated test that clicks the bottommost "Get
 Started" button on <https://www.shootproof.com/>.  As in the exercise above,
 the code provided can be for an automated test using the took and language of
 your choice (Selenium, etc.).
@@ -99,6 +98,7 @@ your choice (Selenium, etc.).
 A complete submission will:
 
 * Assert that a "Get Started" button exists at the bottom of the page
+* Click the button
 * Explain why you chose the language and framework that you did
 * If the code and approach is not obvious, describe the approach and decisions
   made
