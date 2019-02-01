@@ -20,10 +20,12 @@ business problem and the steps you take to solve it.
   it took and why you think it took that long.
 * Be as thorough as you wish.
 * All exercises are to be performed as if you were on the job.
-* Please submit your response as a text file or PDF:
-  * If working with a recruiter, deliver it to them.
-  * If working with ShootProof directly, deliver to <careers+qa@shootproof.com>.
-
+* You may submit your response in one of the following ways:
+  * Package an archive (ZIP, tarball, etc.) of your files and deliver it to
+    your contact.
+    * If working with a recruiter, deliver it to them.
+    * If working with ShootProof directly, deliver to <careers+dev@shootproof.com>.
+  * Fork our repository and open a pull request.
 
 ## Exercise 1: Test plan
 
