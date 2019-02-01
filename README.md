@@ -68,7 +68,7 @@ How would you locate the other “GET STARTED” button, which appears at the bo
 
 ShootProof is using Karate for API testing. Part of this work is writing JsonPath selectors
 (https://github.com/json-path/JsonPath#filter-operators) to select a particular part of a
-JSON object. (The concept should be familiar if you’ve used relative XPath.)
+JSON object. The concept should be familiar if you’ve written relative XPaths or SQL queries.
 
 ### Source data
 
@@ -124,8 +124,8 @@ Use the JSON data below for the following questions:
 
 ### Questions
 
-Complete the following exercises using the JSON below. You may use http://jsonpath.herokuapp.com/ to check your work.
+Complete the following exercises. You may use http://jsonpath.herokuapp.com/ to check your work.
 
-* Write a JsonPath that gets `totalItems` from `meta`.
-* Write a JsonPath that gets the whole contact object for contacts with at least 2 galleries
-* Write a JsonPath that gets the tags for the contact object where the contact name is "Adrastea Shahriar"
+1. Write a JsonPath that gets `totalItems` from `meta`.
+2. Write a JsonPath that gets the whole contact object for contacts with at least 2 galleries
+3. Write a JsonPath that gets the tags for the contact object where the contact name is "Adrastea Shahriar"
