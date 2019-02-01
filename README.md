@@ -129,7 +129,7 @@ A complete submission will:
 
 Use the JSON data below for the following questions:
 
-```
+```JSON
 {
    "meta": {
        "currentPage": 1,
