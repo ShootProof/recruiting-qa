@@ -116,7 +116,7 @@ relative XPaths or SQL queries.
 Using the JSON source data below, complete the following exercises.
 You may use <http://jsonpath.herokuapp.com/> to check your work.
 
-1. Write a JsonPath that gets `totalItems` from `meta`.
+1. Write a JsonPath that gets `totalItems` from `meta`
 1. Write a JsonPath that gets the whole `contact` object for contacts with at least two galleries
 1. Write a JsonPath that gets the `tags` for the `contact` object where the contact name is "Adrastea Shahriar"
 
