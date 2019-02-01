@@ -57,16 +57,47 @@ marketing site home page. There’s a “GET STARTED” button on
 
 ### Locating the "Get Started" button
 
-Using the automation tool/language of your choice, how would you locate that button?
-Please note what tool/language your solution uses.
+**Goal:** provide code or pseudocode to locate the topmost "Get Started" button
+
+Provide code for an automated test that locates the topmost "Get Started"
+button on <https://www.shootproof.com>.  The code provided can be for an
+automated test using the tool and language of your choice (Selenium, etc.).
+
+A complete submission will:
+
+* Assert that a "Get Started" button exists on the page
+* Explain why you chose the language and framework that you did
+* If the code and approach is not obvious, describe the approach and decisions
+  made
+
+In the event that you cannot provide working code, please provide a written
+description of how you would locate this button.  Pseudocode is acceptable,
+but working code is preferred.
 
 ### Locating the _other_ "Get Started" button
 
-How would you locate the other “GET STARTED” button, which appears at the bottom of the page?
+**Goal:** provide code of pseudocode to locate the "Get Started" button that
+appears at the bottom of the page
+
+How would you locate the other "Get Started" button, which appears at the bottom of the page?
+
+Similarly, provide code for an automated test that locates the bottommost "Get
+Started" button on <https://www.shootproof.com/>.  As in the exercise above,
+the code provided can be for an automated test using the took and language of
+your choice (Selenium, etc.).
+
+A complete submission will:
+
+* Assert that a "Get Started" button exists at the bottom of the page
+* Explain why you chose the language and framework that you did
+* If the code and approach is not obvious, describe the approach and decisions
+  made
 
 ## (Optional) Exercise 3: JsonPath
 
-ShootProof is using Karate for API testing. Part of this work is writing
+**Goal:** locate specific values within a JSON object
+
+ShootProof uses Karate for API testing. Part of this work is writing
 [JsonPath selectors](https://github.com/json-path/JsonPath#filter-operators) to select a
 particular part of a JSON object. The concept should be familiar if you’ve written
 relative XPaths or SQL queries.
@@ -77,8 +108,12 @@ Using the JSON source data below, complete the following exercises.
 You may use <http://jsonpath.herokuapp.com/> to check your work.
 
 1. Write a JsonPath that gets `totalItems` from `meta`.
-2. Write a JsonPath that gets the whole `contact` object for contacts with at least two galleries
-3. Write a JsonPath that gets the `tags` for the `contact` object where the contact name is "Adrastea Shahriar"
+1. Write a JsonPath that gets the whole `contact` object for contacts with at least two galleries
+1. Write a JsonPath that gets the `tags` for the `contact` object where the contact name is "Adrastea Shahriar"
+
+A complete submission will:
+
+* Include a JsonPath statement for each of the three questions above
 
 ### Source data
 
@@ -131,5 +166,3 @@ Use the JSON data below for the following questions:
    ]
 }
 ```
-
-
