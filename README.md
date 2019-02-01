@@ -24,7 +24,7 @@ business problem and the steps you take to solve it.
   * Package an archive (ZIP, tarball, etc.) of your files and deliver it to
     your contact.
     * If working with a recruiter, deliver it to them.
-    * If working with ShootProof directly, deliver to <careers+dev@shootproof.com>.
+    * If working with ShootProof directly, deliver to <careers+qa@shootproof.com>.
   * Fork our repository and open a pull request.
 
 ## Exercise 1: Test plan
