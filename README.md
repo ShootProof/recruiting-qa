@@ -62,10 +62,10 @@ TODO...
 ## Exercise 2: Test automation
 
 You’ve been tasked to write automated tests that check the behavior of the ShootProof
-marketing site home page. There’s a “GET STARTED” button on
+marketing site home page. There’s a "Get Started" button on
 <https://www.shootproof.com/> that you’ll need to click.
 
-### Locating the "Get Started" button
+### Part 1: Locating the "Get Started" button
 
 **Goal:** provide code or pseudocode to click the topmost "Get Started" button
 
@@ -85,7 +85,7 @@ In the event that you cannot provide working code, please provide a written
 description of how you would locate and click this button.  Pseudocode is acceptable,
 but working code is preferred.
 
-### Locating the _other_ "Get Started" button
+### Part 2: Locating the _other_ "Get Started" button
 
 **Goal:** provide code or pseudocode to click the "Get Started" button that
 appears at the bottom of the page
@@ -99,20 +99,19 @@ A complete submission will:
 
 * Assert that a "Get Started" button exists at the bottom of the page
 * Click the button
-* Explain why you chose the language and framework that you did
+* Explain why you chose the language and framework that you did (if different
+  from part one)
 * If the code and approach is not obvious, describe the approach and decisions
   made
 
 ## (Optional) Exercise 3: JsonPath
 
-**Goal:** locate specific values within a JSON object
+**Goal:** locate specific values within a JSON object using JsonPath
 
 ShootProof uses Karate for API testing. Part of this work is writing
 [JsonPath selectors](https://github.com/json-path/JsonPath#filter-operators) to select a
 particular part of a JSON object. The concept should be familiar if you’ve written
 relative XPaths or SQL queries.
-
-### Questions
 
 Using the JSON source data below, complete the following exercises.
 You may use <http://jsonpath.herokuapp.com/> to check your work.
