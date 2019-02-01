@@ -91,10 +91,10 @@ As a studio, I want to create a contact to manage information necessary for my p
 * A contact that has a country of Canada will see different fields
   * A contact will have a postal code vs zip code
   * A studio will be able to select a “STATE” from a dropdown list
-* A contact may have a tag added to it consisting for alphanumeric characters with a length of two
+* A contact may have a tag added to it consisting of at least two alphanumeric characters
   * A contact will only have tags saved if the contact is saved
 
-### Additional user stories in this epic
+### Additional user stories in this epic:
 
 * As a studio, I want to see the galleries that my contact is associated with to access them quickly for my business.
 * As a studio, I want to see the contracts that my contact is associated with to access them quickly for my business.
@@ -103,7 +103,7 @@ As a studio, I want to create a contact to manage information necessary for my p
 
 ## Exercise 2: Test automation
 
-You’ve been tasked to write automated tests that check the behavior of the ShootProof
+You’ve been tasked with writing automated tests that check the behavior of the ShootProof
 marketing site home page. There’s a "Get Started" button on
 <https://www.shootproof.com/> that you’ll need to click.
 
