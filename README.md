@@ -53,7 +53,7 @@ of your work style.
 
 You’ve been tasked to write automated tests that check the behavior of the ShootProof
 marketing site home page. There’s a “GET STARTED” button on
-[https://www.shootproof.com/] that you’ll need to click.
+<https://www.shootproof.com/> that you’ll need to click.
 
 ### Locating the "Get Started" button
 
@@ -74,7 +74,7 @@ relative XPaths or SQL queries.
 ### Questions
 
 Using the JSON source data below, complete the following exercises.
-You may use [http://jsonpath.herokuapp.com/] to check your work.
+You may use <http://jsonpath.herokuapp.com/> to check your work.
 
 1. Write a JsonPath that gets `totalItems` from `meta`.
 2. Write a JsonPath that gets the whole `contact` object for contacts with at least two galleries
