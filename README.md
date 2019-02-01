@@ -32,8 +32,8 @@ business problem and the steps you take to solve it.
 
 Below you will find two key inputs for this exercise:
 
-* An actual screenshot of the contact edit page a photographer would use when
-  editing a contact within ShootProof's Studio Panel
+* An actual implementation screenshot of the contact edit page a photographer
+  would use when editing a contact within ShootProof's Studio Panel
 * Acceptance criteria for the contact edit view
 
 These materials are representative of what you would be working with in our QA
@@ -53,7 +53,7 @@ of your work style.
 
 You’ve been tasked to write automated tests that check the behavior of the ShootProof
 marketing site home page. There’s a “GET STARTED” button on
-https://www.shootproof.com/ that you’ll need to click.
+[https://www.shootproof.com/] that you’ll need to click.
 
 ### Locating the "Get Started" button
 
@@ -66,9 +66,19 @@ How would you locate the other “GET STARTED” button, which appears at the bo
 
 ## (Optional) Exercise 3: JsonPath
 
-ShootProof is using Karate for API testing. Part of this work is writing JsonPath selectors
-(https://github.com/json-path/JsonPath#filter-operators) to select a particular part of a
-JSON object. The concept should be familiar if you’ve written relative XPaths or SQL queries.
+ShootProof is using Karate for API testing. Part of this work is writing
+[JsonPath selectors](https://github.com/json-path/JsonPath#filter-operators) to select a
+particular part of a JSON object. The concept should be familiar if you’ve written
+relative XPaths or SQL queries.
+
+### Questions
+
+Using the JSON source data below, complete the following exercises.
+You may use [http://jsonpath.herokuapp.com/] to check your work.
+
+1. Write a JsonPath that gets `totalItems` from `meta`.
+2. Write a JsonPath that gets the whole `contact` object for contacts with at least two galleries
+3. Write a JsonPath that gets the `tags` for the `contact` object where the contact name is "Adrastea Shahriar"
 
 ### Source data
 
@@ -122,10 +132,4 @@ Use the JSON data below for the following questions:
 }
 ```
 
-### Questions
 
-Complete the following exercises. You may use http://jsonpath.herokuapp.com/ to check your work.
-
-1. Write a JsonPath that gets `totalItems` from `meta`.
-2. Write a JsonPath that gets the whole contact object for contacts with at least 2 galleries
-3. Write a JsonPath that gets the tags for the contact object where the contact name is "Adrastea Shahriar"
