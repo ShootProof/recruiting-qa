@@ -31,7 +31,7 @@ Below you will find two key inputs for this exercise:
 
 * A screenshot of the Contact Edit Page, which a photographer
   would use when editing a contact within ShootProof's Studio Panel
-* Some user stories and acceptance criteria for the Contact Edit view.
+* Some user stories and acceptance criteria for the Contact Edit view
 
 These materials are representative of what you would be working with in our QA
 team.
@@ -63,7 +63,7 @@ As a Studio User, I want to track client referrals so that I can provide great c
 
 * Add a Referrals section to the Contact Edit Screen
 * The Referrals section has two parts:
- * Referred By
+  * Referred By
     * A contact can be “Referred By” at most one other contact
   * Referred these Contacts
     * A contact can refer many other contacts
@@ -78,21 +78,21 @@ As a studio, I want to create a contact to manage information necessary for my p
 #### Acceptance criteria:
 
 * A contact must be created with the following fields:
-    * first name
-    * last name
-    * email address
+  * first name
+  * last name
+  * email address
 * A contact that does not contain required information will display an error message underneath the field
 * A contact that has a country of United States of America will see a different fields
-    * A contact will have a zip code vs postal code
-    * A studio will be able to select a “STATE” from a dropdown list
+  * A contact will have a zip code vs postal code
+  * A studio will be able to select a “STATE” from a dropdown list
 * A contact that has a country other then United States of America will see different fields
-    * A contact will have a postal code vs zip code
-    * A studio will need to type in a “STATE"
+  * A contact will have a postal code vs zip code
+  * A studio will need to type in a “STATE"
 * A contact that has a country of Canada will see different fields
-    * A contact will have a postal code vs zip code
-    * A studio will be able to select a “STATE” from a dropdown list
+  * A contact will have a postal code vs zip code
+  * A studio will be able to select a “STATE” from a dropdown list
 * A contact may have a tag added to it consisting for alphanumeric characters with a length of two
-    * A contact will only have tags saved if the contact is saved
+  * A contact will only have tags saved if the contact is saved
 
 ### Additional user stories in this epic
 
