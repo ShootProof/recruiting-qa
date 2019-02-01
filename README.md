@@ -49,6 +49,13 @@ Given these inputs, draft up a test plan for testing the contact edit view.
 You may use any format and structure; whatever is familiar and representative
 of your work style.
 
+### Implementation screenshot
+
+![Contact edit screenshot](contact-edit-screenshot.png "Contact edit screenshot")
+
+### Acceptance criteria
+
+
 ## Exercise 2: Test automation
 
 You’ve been tasked to write automated tests that check the behavior of the ShootProof
@@ -76,7 +83,7 @@ but working code is preferred.
 
 ### Locating the _other_ "Get Started" button
 
-**Goal:** provide code of pseudocode to locate the "Get Started" button that
+**Goal:** provide code or pseudocode to locate the "Get Started" button that
 appears at the bottom of the page
 
 How would you locate the other "Get Started" button, which appears at the bottom of the page?
