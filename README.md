@@ -55,6 +55,9 @@ of your work style.
 
 ### Acceptance criteria
 
+```
+TODO...
+```
 
 ## Exercise 2: Test automation
 
