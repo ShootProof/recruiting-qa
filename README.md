@@ -15,49 +15,86 @@ problem-solving and solution-implementation talents. There is not a single
 correct answer; this is *not* an exam. We simply want to see how you approach a
 business problem and the steps you take to solve it.
 
-* This exercise should not take you more than two or three hours to complete. If
+* This exercise should not take you more than two hours to complete. If
   your solution is taking longer, that's okay—be honest and let us know how long
   it took and why you think it took that long.
 * Be as thorough as you wish.
 * All exercises are to be performed as if you were on the job.
-* You may submit your response in one of the following ways:
-  * Package an archive (ZIP, tarball, etc.) of your files and deliver it to
-    your contact.
-    * If working with a recruiter, deliver it to them.
-    * If working with ShootProof directly, deliver to <careers+qa@shootproof.com>.
-  * Fork our repository and open a pull request.
+* Please submit your response as a text file or PDF:
+  * If working with a recruiter, deliver it to them.
+  * If working with ShootProof directly, deliver to <careers+qa@shootproof.com>.
 
 
 ## Exercise 1: Test plan
 
 Below you will find two key inputs for this exercise:
 
-* An actual implementation screenshot of the contact edit page a photographer
+* A screenshot of the Contact Edit Page, which a photographer
   would use when editing a contact within ShootProof's Studio Panel
-* Acceptance criteria for the contact edit view
+* Some user stories and acceptance criteria for the Contact Edit view.
 
 These materials are representative of what you would be working with in our QA
-team.  A business analyst would have written the acceptance criteria, and
-a developer would have implemented the contact edit page to meet its
-requirements.
+team. 
 
-As a member of our QA team, you would be responsible for confirming that this
-particular view meets its requirements and functions in a manner free of
-defects.
+You may first see the acceptance criteria and a visual comp in a 
+grooming meeting. With the rest of the team, you would be responsible for making
+sure the team collectively understands what work needs to be delivered.
 
-Given these inputs, draft up a test plan for testing the contact edit view.
-You may use any format and structure; whatever is familiar and representative
+In particular, as a member of our QA team, you would be responsible for 
+determining what testing is appropriate.
+
+**Given these inputs, draft a test plan.**
+
+* You may use any format and structure; whatever is familiar and representative
 of your work style.
+* Include some questions you'd ask if you were in the grooming meeting.
+* Include any testing concerns the team should consider before taking on this work.
+* Don't write a lot of test cases as part of this exercise. You may include particular test cases that stand out to you as important and non-obvious.
 
 ### Implementation screenshot
 
 ![Contact edit screenshot](contact-edit-screenshot.png "Contact edit screenshot")
 
-### Acceptance criteria
+### User story 1:
+As a Studio User, I want to track client referrals so that I can provide great customer experience and grow my client base.
 
-```
-TODO...
-```
+### Acceptance criteria:
+* Add a Referrals section to the Contact Edit Screen
+* The Referrals section has two parts:
+ * Referred By
+    * A contact can be “Referred By” at most one other contact
+  * Referred these Contacts
+    * A contact can refer many other contacts
+* Typing in either text field searches the studio’s existing contact list by name and email
+* When a referral relationship is added, the correct relationship should appear on both contacts' info pages
+* A referral relationship can be deleted from either contact’s page
+
+### User story 2:
+As a studio, I want to create a contact to manage information necessary for my photography business.
+
+### Acceptance criteria:
+* A contact must be created with the following fields:
+    * first name
+    * last name
+    * email address
+* A contact that does not contain required information will display an error message underneath the field
+* A contact that has a country of United States of America will see a different fields
+    * A contact will have a zip code vs postal code
+    * A studio will be able to select a “STATE” from a dropdown list
+* A contact that has a country other then United States of America will see different fields
+    * A contact will have a postal code vs zip code
+    * A studio will need to type in a “STATE"
+* A contact that has a country of Canada will see different fields
+    * A contact will have a postal code vs zip code
+    * A studio will be able to select a “STATE” from a dropdown list
+* A contact may have a tag added to it consisting for alphanumeric characters with a length of two
+    * A contact will only have tags saved if the contact is saved 
+    
+### Additional user stories in this epic
+* As a studio, I want to see the galleries that my contact is associated with to access them quickly for my business.
+* As a studio, I want to see the contracts that my contact is associated with to access them quickly for my business.
+* As a studio, I want to see the invoices that my contact is associated with to access them quickly for my business. 
+* As a studio, I want to see recent activity associated with the contact to allow me to understand how they engage my services. 
 
 ## Exercise 2: Test automation
 
