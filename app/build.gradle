@@ -1,0 +1,69 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 28
+    defaultConfig {
+        applicationId "com.automation.shootproof"
+        minSdkVersion 23
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'com.android.support:appcompat-v7:28.0.0'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+    implementation files('libs/selenium-server-standalone-3.4.0.jar')
+    implementation files('libs/client-combined-3.141.59-sources.jar')
+    implementation files('libs/client-combined-3.141.59.jar')
+    implementation files('libs/client-combined-3.4.0-nodeps.jar')
+    implementation files('libs/lib/byte-buddy-1.8.15.jar')
+    implementation files('libs/lib/cglib-nodep-3.2.4.jar')
+    implementation files('libs/lib/client-combined-3.141.59.jar')
+    implementation files('libs/lib/client-combined-3.141.59-sources.jar')
+    implementation files('libs/lib/commons-codec-1.10.jar')
+    implementation files('libs/lib/commons-exec-1.3.jar')
+    implementation files('libs/lib/commons-io-2.5.jar')
+    implementation files('libs/lib/commons-lang3-3.5.jar')
+    implementation files('libs/lib/commons-logging-1.2.jar')
+    implementation files('libs/lib/cssparser-0.9.22.jar')
+    implementation files('libs/lib/gson-2.8.0.jar')
+    implementation files('libs/lib/guava-21.0.jar')
+    implementation files('libs/lib/guava-25.0-jre.jar')
+    implementation files('libs/lib/hamcrest-core-1.3.jar')
+    implementation files('libs/lib/htmlunit-2.26.jar')
+    implementation files('libs/lib/htmlunit-core-js-2.26.jar')
+    implementation files('libs/lib/htmlunit-driver-2.26.jar')
+    implementation files('libs/lib/httpclient-4.5.3.jar')
+    implementation files('libs/lib/httpcore-4.4.6.jar')
+    implementation files('libs/lib/httpmime-4.5.3.jar')
+    implementation files('libs/lib/javax.servlet-api-3.1.0.jar')
+    implementation files('libs/lib/jetty-io-9.4.1.v20170120.jar')
+    implementation files('libs/lib/jetty-util-9.4.1.v20170120.jar')
+    implementation files('libs/lib/jna-4.1.0.jar')
+    implementation files('libs/lib/jna-platform-4.1.0.jar')
+    implementation files('libs/lib/junit-4.12.jar')
+    implementation files('libs/lib/neko-htmlunit-2.25.jar')
+    implementation files('libs/lib/okhttp-3.11.0.jar')
+    implementation files('libs/lib/okio-1.14.0.jar')
+    implementation files('libs/lib/phantomjsdriver-1.4.0.jar')
+    implementation files('libs/lib/sac-1.3.jar')
+    implementation files('libs/lib/serializer-2.7.2.jar')
+    implementation files('libs/lib/websocket-api-9.4.3.v20170317.jar')
+    implementation files('libs/lib/websocket-client-9.4.3.v20170317.jar')
+    implementation files('libs/lib/websocket-common-9.4.3.v20170317.jar')
+    implementation files('libs/lib/xalan-2.7.2.jar')
+    implementation files('libs/lib/xercesImpl-2.11.0.jar')
+    implementation files('libs/lib/xml-apis-1.4.01.jar')
+}

@@ -1,0 +1,8 @@
+ShootProof  JsonPath
+
+Write a JsonPath that gets totalItems from meta
+	$.meta.totalItems
+Write a JsonPath that gets the whole contact object for contacts with at least two galleries
+	$.contact[?(@.galleriesCount >= 2)]
+Write a JsonPath that gets the tags for the contact object where the contact name is "Adrastea Shahriar"
+	$.contact[?(@.name=='Adrastea Shahriar')].tags

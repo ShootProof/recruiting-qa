@@ -1,0 +1,51 @@
+ShootProof
+
+Documentation varies from formal TCM tools, to Word, or Excel. Formats and data included in any test plan or strategy documents vary on the development lifecycle in place or the desired development lifecycle. I have created many different forms of strategy and test plan documents, and the internet has more templates than anyone could ever need. The information included needs to be relevent to the needs of the organization. 
+
+A current example I implemented includes the follow key data:
+User Story Name, # of Acceptance Criteria, # of Test Cases, Description of each test scenario, test scenario variables, Manual vs automation candidate, automatable?, automated, automation scenario covering test scenarios
+
+User Story #1
+
+"Referred By" Questions
+What happens if the Referred By contact is deleted? Do the contacts they referred still display their name? 
+What message is displayed if a second person attempts to Refer someone already referred by another contact?
+
+"Referred" Questions
+Is there a limit to the number of people displayed under this section?
+Are the names displayed as a single list?
+How will the page display long lists of names? 
+
+
+Autolookup/Search Questions
+Does autolookup/search work offline?
+What happens if a contact name doesn't exist when typing the name?
+How does the lookup occur? Stored local names? Api calls? 
+
+General Questions
+Is the page designed for specific browser/platforms?
+Is it mobile friendly?
+How quickly do new referrals display on the other profiles? 
+How are updates performed? When will updates occur?
+How and where are the relationships stored? Are there any other means to edit or manage those relationships?
+How are queued delete requests handled? Error message for subsequent requests?
+How are contacts defined? Are contacts individual users in the system or personal contacts?
+
+User Story #2
+Where are contact data stored?
+How are the data transported from UI to data store?
+Are data types and sizes aligned acorss infrastructure layers?
+Where are data validations performed?
+Where are error messages stored? 
+Are addresses validated? If so, what is the source of validation?
+How is State, Country, Postal/Zip code data stored? 
+Which countries are supported?
+Is there a limit to the number of tags able to created at once?
+What is the error message for improper tag names? Is there more than one error message?
+Are symbols allowed as part of a tag name? Is there an upper limit to tag name length?
+
+The majority of my questions for the remaining stories would be of the same type. As for documenting test cases and test coverage, there are many stragies which can be implemented. 
+
+Agile implementations vary from org to org and based on the development lifecycle needs the necessary documentation can be adopted into the daily processes. Quality is not tied to the tools used but the overall development lifecycle processes and methodologies. Various practices, like Agile and DevOps help remove barriers and align the organization with meeting the needs of the customers. 
+
+I have had the fortune of working for some great companies and learned many different software development approaches. The one thing they all have in common, is they alll wanted to deliver the best software to their customers possible given all the contraints. I look forward to discussing how I can assist in producing wordclass software for ShootProof.

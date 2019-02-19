@@ -1,0 +1,13 @@
+ShootProof Automation Solutions
+
+Language: Java
+Automation Tool: Selenium
+
+Tool Selection Criteria:
+Easy startup and implementation
+Popular language
+Open Source
+Standardize
+Market Resource Availability
+Strong Community Support
+
