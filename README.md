@@ -32,7 +32,7 @@ business problem and the steps you take to solve it.
 * It's your first week at ShootProof. Your cross-functional scrum team, which includes specialists in design and sotware engineering, has refined and planned a user story. Unfortunately you've missed these working meetings.
 * Here's what they've recorded:
 ___
-## User story: As a studio, I want to sign up my studio for a shootproof trial.
+## User story: As a studio, I want to sign up my studio for a ShootProof trial.
 
 >Acceptance Criteria:
 >* Fast, correctly, and with no training
@@ -56,13 +56,13 @@ ___
 
 * What are some questions you'd ask your team to ensure test coverage?
   * Who would you ask each of these questions? All scrum team members are available.
-  * Make assumptions about the answers you'd get. Note your assumptions. 
+  * Make assumptions about the answers you'd get. Note your assumptions.
 * Once you determine how to facilitate test coverage, given your assumptions,
   * How would you communicate your plan?
   * How would you accomplish execution of that plan?
 
 
-### Automate the following test case 
+### Automate the following test case
 
 Provide an automated test case to check that a visitor to <https://www.shootproof.com> can proceed to the Signup screen.  Use the tool and language of your choice (Selenium, etc.).
 
