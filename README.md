@@ -27,9 +27,9 @@ business problem and the steps you take to solve it.
     * If working with ShootProof directly, deliver to <careers+qa@shootproof.com>.
   * Fork our repository and open a pull request.
 
-# Exercise: Testing a product backlog item as a scrum development team member
+# Exercise: Testing a product backlog item as a Scrum development team member
 
-* It's your first week at ShootProof. Your cross-functional scrum team, which includes specialists in design and sotware engineering, has refined and planned a user story. Unfortunately you've missed these working meetings.
+* It's your first week at ShootProof. Your cross-functional Scrum team, which includes specialists in design and sotware engineering, has refined and planned a user story. Unfortunately you've missed these working meetings.
 * Here's what they've recorded:
 ___
 ## User story: As a studio, I want to sign up my studio for a ShootProof trial.
@@ -55,7 +55,7 @@ ___
 ### Answer the following questions
 
 * What are some questions you'd ask your team to ensure test coverage?
-  * Who would you ask each of these questions? All scrum team members are available.
+  * Who would you ask each of these questions? All Scrum team members are available.
   * Make assumptions about the answers you'd get. Note your assumptions.
 * Once you determine how to facilitate test coverage, given your assumptions,
   * How would you communicate your plan?
