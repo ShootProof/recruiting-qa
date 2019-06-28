@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="ShootProofChromeTestSuite" verbose="10">
+  
+  <parameter name="browser" value="chrome"/>
+  <parameter name="version" value="73.0"/>
+  	
+  <test name="ChromeTest" preserve-order="true">
+    <classes>
+      <class name="shootproof.selenium.tests.TestGetStartedButtonsOnHomePage">
+        <methods>
+          <include name="testClickTopMostGetStartedButton" />
+          <include name="testClickBottomMostGetYourFreeGalleryButton" />
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>
